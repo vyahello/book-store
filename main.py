@@ -6,7 +6,10 @@ from decouple import config
 
 import uvicorn
 
-DATABASE_URL = f"postgresql://{config('DB_USER')}:{config('DB_PASSWORD')}@localhost:5433/store"
+DATABASE_URL = (
+    f"postgresql://{config('DB_USER')}:{config('DB_PASSWORD')}@"
+    "localhost:5433/store"
+)
 
 database = databases.Database(DATABASE_URL)
 metadata = sqlalchemy.MetaData()
