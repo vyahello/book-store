@@ -45,7 +45,18 @@ Then please open http://0.0.0.0:8000 in your browser.
 Please check http://0.0.0.0:8000/docs swagger documentation in your browser.
 
 ### Database migration with alembic
-TBD
+- Init migrations 
+```bash
+alembic init migrations
+```
+- Commit changes
+```bash
+alembic revision --autogenerate -m "Initial"
+```
+- Apply changes
+```bash
+alembic upgrade head
+```
 
 ### Testing
 
