@@ -5,3 +5,4 @@ asyncpg==0.25.0
 psycopg2-binary==2.9.3
 uvicorn==0.17.0
 alembic==1.7.5
+python-decouple==3.5

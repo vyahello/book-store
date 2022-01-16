@@ -40,6 +40,10 @@ Then please open http://0.0.0.0:8000 in your browser.
 
 ## Development notes
 
+### API 
+
+Please check http://0.0.0.0:8000/docs swagger documentation in your browser.
+
 ### Database migration with alembic
 TBD
 
