@@ -3,11 +3,11 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Checked with flake8](https://img.shields.io/badge/flake8-checked-blue)](http://flake8.pycqa.org/)
-[![Build Status](https://travis-ci.org/vyahello/book-store.svg?branch=master)](https://travis-ci.org/vyahello/book-store)
+[![Build Status](https://app.travis-ci.com/vyahello/book-store.svg?branch=main)](https://app.travis-ci.com/github/vyahello/book-store)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
 
 # Book store
-> An example of book storage based on ORM (sqlalchemy) and fastapi.
+> An example of simple book storage based on ORM (sqlalchemy) and fastapi.
 
 ## Tools
 
